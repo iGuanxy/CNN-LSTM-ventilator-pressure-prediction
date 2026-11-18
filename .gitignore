@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Data (large + competition licensing; keep the directory README tracked)
+data/*
+!data/README.md
+*.csv
+
+# Model weights (distribute via Git LFS or cloud storage, see README)
+*.pt
+*.pth
+*.ckpt
+
+# Intermediate artifacts
+*.zip
+*.docx
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
